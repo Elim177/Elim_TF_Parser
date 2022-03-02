@@ -17,7 +17,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 </select>
 <!--Now we'll create a button that'll display the value of this option. Refer to the "displayOptionValue" function down below to find out how this is done-->
 <input type="button" onclick="displayOptionValue()" value="Display Option Value"/>
-<<input type="button" onclick="changeOptionValue()" value="Change Option Value"/>
+<input type="button" onclick="changeOptionValue()" value="Change Option Value"/>
 <!--Here's where the value will display-->
 <p id="demo"/>
 <script>
