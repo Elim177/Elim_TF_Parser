@@ -11,26 +11,66 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ## Output: tf.audio.decode.html file
 ## Here is an output
 
-<!--First we'll make a a select element with an option-->
-<select>
-<option value="Unchanged Value" id="1"></option>
-</select>
-<!--Now we'll create a button that'll display the value of this option. Refer to the "displayOptionValue" function down below to find out how this is done-->
-<input type="button" onclick="displayOptionValue()" value="Display Option Value"/>
-<input type="button" onclick="changeOptionValue()" value="Change Option Value"/>
-<!--Here's where the value will display-->
-<p id="demo"/>
-<script>
-//This will get the option's value and display it in the "p" tag
-function displayOptionValue() {
-var x = document.getElementById("1").value;
-document.getElementById("demo").innerHTML = x;
+<!-- THIS IS THE HTML -->
+
+<form name="form1" id="form1" action="/action_page.php">
+  Subjects: <select name="subject" id="subject">
+    <option value="" selected="selected">Select subject</option>
+  </select>
+  <br><br>
+  Topics: <select name="topic" id="topic">
+    <option value="" selected="selected">Please select subject first</option>
+  </select>
+  <br><br>
+  Chapters: <select name="chapter" id="chapter">
+    <option value="" selected="selected">Please select topic first</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+<!-- THIS IS THE JAVASCRPIT -->
+
+var subjectObject = {
+  "Front-end": {
+    "HTML": ["Links", "Images", "Tables", "Lists"],
+    "CSS": ["Borders", "Margins", "Backgrounds", "Float"],
+    "JavaScript": ["Variables", "Operators", "Functions", "Conditions"]
+  },
+  "Back-end": {
+    "PHP": ["Variables", "Strings", "Arrays"],
+    "SQL": ["SELECT", "UPDATE", "DELETE"]
+  }
 }
-//Now we'll change the value
-function changeOptionValue() {
-document.getElementById("1").value = "Changed Value";
+window.onload = function() {
+  var subjectSel = document.getElementById("subject");
+  var topicSel = document.getElementById("topic");
+  var chapterSel = document.getElementById("chapter");
+  for (var x in subjectObject) {
+    subjectSel.options[subjectSel.options.length] = new Option(x, x);
+  }
+  subjectSel.onchange = function() {
+    //empty Chapters- and Topics- dropdowns
+    chapterSel.length = 1;
+    topicSel.length = 1;
+    //display correct values
+    for (var y in subjectObject[this.value]) {
+      topicSel.options[topicSel.options.length] = new Option(y, y);
+    }
+  }
+  topicSel.onchange = function() {
+    //empty Chapters dropdown
+    chapterSel.length = 1;
+    //display correct values
+    var z = subjectObject[subjectSel.value][this.value];
+    for (var i = 0; i < z.length; i++) {
+      chapterSel.options[chapterSel.options.length] = new Option(z[i], z[i]);
+    }
+  }
 }
-</script>
+
+<!-- JAVASCRIPT ENDS -->
 
 
 description: Decode a 16-bit PCM WAV file to a float tensor.
