@@ -11,25 +11,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ## Output: tf.audio.decode.html file
 ## Here is an output
 
-<!-- THIS IS THE HTML -->
 
-<form name="form1" id="form1" action="/action_page.php">
-  Subjects: <select name="subject" id="subject">
-    <option value="" selected="selected">Select subject</option>
-  </select>
-  <br><br>
-  Topics: <select name="topic" id="topic">
-    <option value="" selected="selected">Please select subject first</option>
-  </select>
-  <br><br>
-  Chapters: <select name="chapter" id="chapter">
-    <option value="" selected="selected">Please select topic first</option>
-  </select>
-  <br><br>
-  <input type="submit" value="Submit">
-</form>
-
-
+<script>
 <!-- THIS IS THE JAVASCRPIT -->
 
 var subjectObject = {
@@ -71,6 +54,26 @@ window.onload = function() {
 }
 
 <!-- JAVASCRIPT ENDS -->
+<script/>
+
+<!-- THIS IS THE HTML -->
+
+<form name="form1" id="form1" action="/action_page.php">
+  Subjects: <select name="subject" id="subject">
+    <option value="" selected="selected">Select subject</option>
+  </select>
+  <br><br>
+  Topics: <select name="topic" id="topic">
+    <option value="" selected="selected">Please select subject first</option>
+  </select>
+  <br><br>
+  Chapters: <select name="chapter" id="chapter">
+    <option value="" selected="selected">Please select topic first</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
 
 
 description: Decode a 16-bit PCM WAV file to a float tensor.
