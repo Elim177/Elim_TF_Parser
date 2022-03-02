@@ -11,6 +11,28 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ## Output: tf.audio.decode.html file
 ## Here is an output
 
+<!--First we'll make a a select element with an option-->
+<select>
+<option value="Unchanged Value" id="1"></option>
+</select>
+<!--Now we'll create a button that'll display the value of this option. Refer to the "displayOptionValue" function down below to find out how this is done-->
+<input type="button" onclick="displayOptionValue()" value="Display Option Value"/>
+<<input type="button" onclick="changeOptionValue()" value="Change Option Value"/>
+<!--Here's where the value will display-->
+<p id="demo"/>
+<script>
+//This will get the option's value and display it in the "p" tag
+function displayOptionValue() {
+var x = document.getElementById("1").value;
+document.getElementById("demo").innerHTML = x;
+}
+//Now we'll change the value
+function changeOptionValue() {
+document.getElementById("1").value = "Changed Value";
+}
+</script>
+
+
 description: Decode a 16-bit PCM WAV file to a float tensor.
 
 <div itemscope itemtype="http://developers.google.com/ReferenceObject">
