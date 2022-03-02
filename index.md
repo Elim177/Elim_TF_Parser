@@ -54,7 +54,7 @@ window.onload = function() {
 }
 
 <!-- JAVASCRIPT ENDS -->
-<script/>
+</script>
 
 <!-- THIS IS THE HTML -->
 
