@@ -12999,7 +12999,7 @@ var typeObject = {
 
 <h1>Elim_TF_API</h1>
 
-<form name="form1" id="form1" action="/https://github.com/Elim177/Elim_TF_Parser/blob/gh-pages/keras.html" method="GET">
+<form name="form1" id="form1" action="https://github.com/Elim177/Elim_TF_Parser/blob/gh-pages/keras.html" method="GET">
 Expertise Level: <select name="subject" id="subject">
     <option value="" selected="selected">Select Expertise Level</option>
   </select>
