@@ -61,11 +61,11 @@ The `stride` argument determines the stride of the input elements, and the
 For example, letting `{...}` to represent a Dataset:
 
 - `tf.data.Dataset.range(7).window(2)` produces
-  `{{0, 1}, {2, 3}, {4, 5}, {6}}`
+  `{ {0, 1}, {2, 3}, {4, 5}, {6} }`
 - `tf.data.Dataset.range(7).window(3, 2, 1, True)` produces
-  `{{0, 1, 2}, {2, 3, 4}, {4, 5, 6}}`
+  `{ {0, 1, 2}, {2, 3, 4}, {4, 5, 6} }`
 - `tf.data.Dataset.range(7).window(3, 1, 2, True)` produces
-  `{{0, 2, 4}, {1, 3, 5}, {2, 4, 6}}`
+  `{ {0, 2, 4}, {1, 3, 5}, {2, 4, 6} }`
 
 Note that when the `window` transformation is applied to a dataset of
 nested elements, it produces a dataset of nested windows.
@@ -75,9 +75,9 @@ nested elements, it produces a dataset of nested windows.
 
 
 - `tf.data.Dataset.from_tensor_slices((range(4), range(4))).window(2)`
-  produces `{({0, 1}, {0, 1}), ({2, 3}, {2, 3})}`
+  produces `{ ({0, 1}, {0, 1}), ({2, 3}, {2, 3}) }`
 - `tf.data.Dataset.from_tensor_slices({"a": range(4)}).window(2)`
-  produces `{{"a": {0, 1}}, {"a": {2, 3}}}`
+  produces `{ {"a": {0, 1}}, {"a": {2, 3}} }`
 
 <!-- Tabular view -->
  <table class="responsive fixed orange">
