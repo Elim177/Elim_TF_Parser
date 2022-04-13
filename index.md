@@ -1,5 +1,11 @@
-## Welcome to GitHub Pages
 
+---
+layout: default
+title: Home
+nav_order: 1
+has_children: false
+---
+## Welcome to GitHub Pages
 
 ### Markdown
 # Sample file based on tf.keras API linked to keras.classification tutorial
