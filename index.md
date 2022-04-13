@@ -1,19 +1,19 @@
 
 ---
 layout: default
-title: Home
+title: HOME
 nav_order: 1
 has_children: false
 ---
 ## This is the Home page for Elim_TF_Parser.
 
-
+<!-- 
 # Sample file based on tf.keras API linked to keras.classification tutorial
 ## Input : tf.audio.decode api & keras.classification tutorial
 ## Process: Merge them
 ## Output: tf.keras.html file
-## Here is a sample 
-<!DOCTYPE html>
+## Here is a sample  -->
+
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
