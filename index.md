@@ -5,9 +5,9 @@ title: Home
 nav_order: 1
 has_children: false
 ---
-## Welcome to GitHub Pages
+## This is the Home page for Elim_TF_Parser.
 
-### Markdown
+
 # Sample file based on tf.keras API linked to keras.classification tutorial
 ## Input : tf.audio.decode api & keras.classification tutorial
 ## Process: Merge them
