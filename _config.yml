@@ -1,5 +1,15 @@
 # remote_theme: pages-themes/minimal@v0.2.0
+markdown: kramdown
 remote_theme: just-the-docs/just-the-docs
+relative_links:
+  enabled: true
+  collections: true
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-relative-links
 - "jekyll-github-metadata"
+
+include:
+ - decode_wav.md
+ - encode_wav.md
+ - tf.md
