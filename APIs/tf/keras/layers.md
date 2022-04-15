@@ -301,3 +301,31 @@ Public API for tf.keras.layers namespace.
 
 [`subtract(...)`](../../tf/keras/layers/subtract.md): Functional interface to the `Subtract` layer.
 
+
+
+
+<h1>Additional Resources</h1>
+
+<h2>Beginner</h2>
+
+<div>
+<button type="button" class="collapsible">Tutorial Link</button>
+<div class="content">
+  <p><a href="https://www.tensorflow.org/tutorials/keras/classification">Basic Image Classification</a></p>
+</div>
+
+<h4>Additional Videos:</>
+<button type="button" class="collapsible">Video 1</button>
+<div class="content">
+  <p><a href="https://www.youtube.com/watch?v=mu_ujwcABhw">Basic classification: Classify images of clothing</a></p>
+</div>
+<button type="button" class="collapsible">Video 2</button>
+<div class="content">
+  <p><a href="https://www.youtube.com/watch?v=we7bo-eu6AY">Machine Learning Project 1: Basic classification: Classify images of clothing using Tensorflow</a></p>
+</div>
+<button type="button" class="collapsible">Video 3</button>
+<div class="content">
+  <p><a href="https://www.youtube.com/watch?v=FiNglI1wRNk">Use TensorFlow to classify clothing images 
+  (Coding TensorFlow)</a></p>
+</div>
+</div>
