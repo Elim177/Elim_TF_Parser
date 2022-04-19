@@ -310,22 +310,44 @@ Public API for tf.keras.layers namespace.
 
 <div>
 <button type="button" class="collapsible">Tutorial Link</button>
+<h3>Tutorial Link</h3>
 <div class="content">
   <p><a href="https://www.tensorflow.org/tutorials/keras/classification">Basic Image Classification</a></p>
 </div>
 
 <h4>Additional Videos:</>
 <button type="button" class="collapsible">Video 1</button>
+<h3>Additional Videos:</h3>
+<h4>Video 1:</h4>
 <div class="content">
   <p><a href="https://www.youtube.com/watch?v=mu_ujwcABhw">Basic classification: Classify images of clothing</a></p>
 </div>
 <button type="button" class="collapsible">Video 2</button>
+<h4>Video 2:</h4>
 <div class="content">
   <p><a href="https://www.youtube.com/watch?v=we7bo-eu6AY">Machine Learning Project 1: Basic classification: Classify images of clothing using Tensorflow</a></p>
 </div>
 <button type="button" class="collapsible">Video 3</button>
+<h4>Video 3:</h4>
 <div class="content">
   <p><a href="https://www.youtube.com/watch?v=FiNglI1wRNk">Use TensorFlow to classify clothing images 
   (Coding TensorFlow)</a></p>
 </div>
+
+
+<h3>Additional Links to Articles:</h3>
+<h4>Article 1:</h4>
+<div class="content">
+  <p><a href="https://segmentfault.com/a/1190000040410670">Basic classification: Classify images of clothing</a></p>
 </div>
+<h4>Article 2:</h4>
+<div class="content">
+  <p><a href="https://machinelearningmastery.com/how-to-develop-a-cnn-from-scratch-for-fashion-mnist-clothing-classification/">Deep Learning CNN for Fashion-MNIST Clothing Classification</a></p>
+</div>
+<h4>Article 3:</h4>
+<div class="content">
+  <p><a href="https://medium.com/analytics-vidhya/classifying-images-of-clothing-using-tensorflow-39ec3c1cb8b7">Classifying Images of Clothing Using TensorFlow)</a></p>
+</div>
+
+
+

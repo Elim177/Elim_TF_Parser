@@ -132,5 +132,42 @@ __version__<a id="__version__"></a>
 
 
 
+<h2>Advanced</h2>
+<div>
+<h3>Tutorial Link</h3>
+<div class="content">
+  <p><a href="https://www.tensorflow.org/tutorials/distribute/custom_training">Custom training with tf.distribute.Strategy</a></p>
+</div>
+
+
+<h3>Additional Videos:</h3>
+<h4>Video 1:</h4>
+<div class="content">
+  <p><a href="https://www.youtube.com/watch?v=jKV53r9-H14">Inside TensorFlow: tf.distribute.Strategy</a></p>
+</div>
+<h4>Video 2:</h4>
+<div class="content">
+  <p><a href="https://www.youtube.com/watch?v=NbID_AqdZXM">Simplified distributed training with tf.distribute parameter servers</a></p>
+</div>
+<h4>Video 3:</h4>
+<div class="content">
+  <p><a href="https://www.youtube.com/watch?v=S1tN9a4Proc">A friendly introduction to distributed training (ML Tech Talks)</a></p>
+</div>
+
+
+
+<h3>Additional Links to Articles:</h3>
+<h4>Article 1:</h4>
+<div class="content">
+  <p><a href="https://towardsdatascience.com/multi-gpus-and-custom-training-loops-in-tensorflow-2-15b4b86b53bd">Multi-GPUs and Custom Training Loops in TensorFlow 2</a></p>
+</div>
+<h4>Article 2:</h4>
+<div class="content">
+  <p><a href="https://apimirror.com/tensorflow~guide/distributed_training">Distributed training with TensorFlow</a></p>
+</div>
+<h4>Article 3:</h4>
+<div class="content">
+  <p><a href="https://analyticsindiamag.com/hands-on-guide-to-custom-training-with-tensorflow-strategy">Hands-On Guide To Custom Training With Tensorflow Strategy</a></p>
+</div>
 
 </div>

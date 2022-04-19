@@ -73,8 +73,48 @@ INFINITE_CARDINALITY<a id="INFINITE_CARDINALITY"></a>
 UNKNOWN_CARDINALITY<a id="UNKNOWN_CARDINALITY"></a>
 </td>
 <td>
-`-2`
+-2
 </td>
 </tr>
 </table>
 
+
++
+<div>
+<h3>Tutorial Link</h3>
+<div class="content">
+  <p><a href="https://www.tensorflow.org/tutorials/keras/text_classification_with_hub">text classification with tf hub</a></p>
+</div>
+
+<h4>Additional Videos:</>
+<h4>Video 1:</h4>
+<div class="content">
+  <p><a href="https://www.youtube.com/watch?v=qBHyvtRUmNY">Text classification with TensorFlow Hub</a></p>
+<h4>Video 2:</h4>
+<div class="content">
+  <p><a href="https://www.youtube.com/watch?v=k-_pWoy2fb4">Python Neural Networks - Tensorflow 2.0 Tutorial - Text Classification P1</a></p>
+</div>
+<h4>Video 3:</h4>
+<div class="content">
+  <p><a href="https://www.youtube.com/watch?v=-vAgZpyfv40">Python and TensorFlow: Text Classification -- Part 1</a></p>
+</div>
+
+
+<h3>Additional Links to Articles:</h3>
+<h4>Article 1:</h4>
+<div class="content">
+  <p><a href="https://docs.w3cub.com/tensorflow~guide/tutorials/text_classification_with_tf_hub">How to build a simple text classifier with TF-Hub</a></p>
+</div>
+<h4>Article 2:</h4>
+<div class="content">
+  <p><a href="https://medium.com/swlh/a-beginners-guide-to-text-classification-using-tensorflow-hub-59ba2e6d439c">A Beginners Guide to Text Classification Using TensorFlow Hub</a></p>
+</div>
+<h4>Article 3:</h4>
+<div class="content">
+  <p><a href="https://upscfever.com/upsc-fever/en/programming/tensorflow/5.html">TensorFlow tutorials - Text classification with TensorFlow Hub</a></p>
+</div>
+
+
+
+
+</div>
