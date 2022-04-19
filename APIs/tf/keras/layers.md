@@ -309,25 +309,22 @@ Public API for tf.keras.layers namespace.
 <h2>Beginner</h2>
 
 <div>
-<button type="button" class="collapsible">Tutorial Link</button>
 <h3>Tutorial Link</h3>
 <div class="content">
   <p><a href="https://www.tensorflow.org/tutorials/keras/classification">Basic Image Classification</a></p>
 </div>
 
-<h4>Additional Videos:</>
+<h4>Additional Videos:
 <button type="button" class="collapsible">Video 1</button>
 <h3>Additional Videos:</h3>
 <h4>Video 1:</h4>
 <div class="content">
   <p><a href="https://www.youtube.com/watch?v=mu_ujwcABhw">Basic classification: Classify images of clothing</a></p>
 </div>
-<button type="button" class="collapsible">Video 2</button>
 <h4>Video 2:</h4>
 <div class="content">
   <p><a href="https://www.youtube.com/watch?v=we7bo-eu6AY">Machine Learning Project 1: Basic classification: Classify images of clothing using Tensorflow</a></p>
 </div>
-<button type="button" class="collapsible">Video 3</button>
 <h4>Video 3:</h4>
 <div class="content">
   <p><a href="https://www.youtube.com/watch?v=FiNglI1wRNk">Use TensorFlow to classify clothing images 

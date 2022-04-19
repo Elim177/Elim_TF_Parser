@@ -79,14 +79,17 @@ UNKNOWN_CARDINALITY<a id="UNKNOWN_CARDINALITY"></a>
 </table>
 
 
-+
+
+<h1>Additional Resources</h1>
+<h2>Beginner</h2>
+
 <div>
 <h3>Tutorial Link</h3>
 <div class="content">
   <p><a href="https://www.tensorflow.org/tutorials/keras/text_classification_with_hub">text classification with tf hub</a></p>
 </div>
 
-<h4>Additional Videos:</>
+<h4>Additional Videos:
 <h4>Video 1:</h4>
 <div class="content">
   <p><a href="https://www.youtube.com/watch?v=qBHyvtRUmNY">Text classification with TensorFlow Hub</a></p>

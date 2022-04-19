@@ -4,7 +4,16 @@ title: HOME
 nav_order: 1
 has_children: false
 ---
-## This is the Home page for Elim_TF_Parser.
+## This is the Home page for Elim_Parser.
+Elim Parser
+
+AIM: To alter the expertise Level of the documentation
+
+Pseudocode for the Parser:
+
+If the reader is beginner and API is linked to beginner tutorial,  then add the tutorial content to the API documentation and additional resources(from the internet)
+If the reader is advanced and the API is linked to the Advanced tutorial,  add the tutorial content to the API documentation and additional resources from the internet)
+
 
 <!-- 
 # Sample file based on tf.keras API linked to keras.classification tutorial
@@ -14,6 +23,9 @@ has_children: false
 ## Here is a sample  -->
 
 <html>
+
+
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>
